@@ -14,18 +14,50 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
-    <main id = "conteiner">
+    <main id = "container">
         <aside id= "bio-container">
             <h2>Erick Wallace De Melo</h2>
-            <img src="img/Erick_perfil.png" alt="Erick Wallace De Melo">
+            <img id="bio-image" src="img/Erick_perfil.png" alt="Erick Wallace De Melo">
             <p>Olá, meu nome é Erick e sou apenas um <span class="highlight">Estudante de Programação</span></p>
             <p id="welcome-text">Seja Bem-Vindo</p>
-            <ul id="social-container"></ul>
+            <ul id="social-container">
                 <li><a href="https://www.linkedin.com/in/erick-wallace-de-melo-4bb84020a/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 <li><a href="https://www.instagram.com/ericksnkk/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="https://github.com/ericksnk" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>  
+            <div id="email-container">
+                <ion-icon name ="mail-outline"></ion-icon><a href="mailto:erickwdmelo@gmail.com">erickwdmelo@gmail.com</a>
+            </div>
         </aside>
-        <section id="about-conteiner"></section>
+        <section id="about-container">
+            <h1 id="name">Erick Wallace de Melo</h1>
+            <p id="title"><span class="highlight">Estudante de programação</span></p>
+            <p class="description">Sou um estudante de <span class="highlight">Engenharia da computação</span> na UTFPR, e estudo outras linguagens de programação.</p>
+            <p class="description">Estudando e aprimorando atualmente <span class="highlight">Python</span> e <span class="highlight">SQL</span>.</p>
+            <p class="description">Busco a cada dia aprender mais.</p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheca as tecnologias que domino.</p>
+            <!--skills-->
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-c-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-vscode-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-windows-plain colored"></i>
+                </div>
+            </div>
+                
+        </section>
 
     </main>
 
