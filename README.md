@@ -1,3 +1,5 @@
-﻿# ericksnk.github.io
+﻿# Portifólio
 
-Projeto de criação de um portifólio.
+Projeto para a criação de um portifólio pessoal.
+
+[Link direto do portifólio](ericksnk.github.io)
